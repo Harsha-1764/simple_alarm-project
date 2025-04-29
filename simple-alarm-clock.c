@@ -21,7 +21,7 @@ int main() {
             
             printf("\n? ALARM! Time's up!\n");
            for (i = 0; i < 10; i++) {
-    		Beep(1000, 900);
+    		Beep(5000, 900);
     		Sleep(100);
 			}
             break;
